@@ -1,0 +1,4 @@
+tertile_label,tertile_rank,contacts,responders,response_rate,test_set_base_rate,full_dataset_base_rate,revenue_per_conversion_eur,cost_per_contact_eur,contact_cost_total_eur,revenue_1yr_eur,gross_profit_1yr_eur,mppc_eur,roi_1yr,cost_per_acquisition_eur,breakeven_cost_per_contact_eur,is_recommended,is_t1t2_cutoff_row
+T1 High,1,2059,949,0.460903,0.384491,0.112663,150.0,2.5,5147.5,142350.0,137202.5,66.64,26.654201,5.42,69.14,True,False
+T2 Medium,2,2059,864,0.419621,0.384491,0.112663,150.0,2.5,5147.5,129600.0,124452.5,60.44,24.177271,5.96,62.94,True,True
+T3 Low,3,2059,562,0.272948,0.384491,0.112663,150.0,2.5,5147.5,84300.0,79152.5,38.44,15.376882,9.16,40.94,False,False

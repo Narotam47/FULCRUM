@@ -1,0 +1,4 @@
+tertile,p_hat_min,p_hat_max,p_hat_mean
+T1 High,0.1612,0.9231,0.3041
+T2 Medium,0.0692,0.1611,0.1068
+T3 Low,0.0031,0.0691,0.0409

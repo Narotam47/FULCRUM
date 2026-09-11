@@ -1,0 +1,16 @@
+# Campaign P&L economic assumptions — Portuguese retail bank, 2008-2010.
+# See docs/assumptions.md for sourcing, defensible ranges, and sensitivity rankings.
+#
+# Sensitivity ranking: balance (1, highest) → nim (2) → tenor (3) →
+#                      retention (4) → cost_per_contact (5, lowest)
+#
+# "illustrative" = no single public document pins this number; defensible by
+#                  first-principles reasoning and industry benchmarks.
+# "sourced"      = checkable against ECB Statistical Data Warehouse,
+#                  MFI Interest Rate statistics (Table MIR), country = PT.
+
+cost_per_contact_eur: 2.50       # illustrative; rank-5 sensitivity
+avg_deposit_balance_eur: 10000   # illustrative; rank-1 sensitivity
+net_interest_margin: 0.015       # 1.50%; sourced to ECB MFI stats; rank-2
+deposit_tenor_yrs: 1.0           # 12-month term; illustrative; rank-3
+retention_rate: 0.50             # rollover fraction at maturity; illustrative; rank-4
